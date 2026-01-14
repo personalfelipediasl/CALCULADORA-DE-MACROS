@@ -1,0 +1,5 @@
+{
+  "name": "CALCULADORA DIAS FIT",
+  "description": "Essa é uma calculadora para ajudar ao usuário ter noção das calorias dos próprios alimentos que tem costume de usar. Esta ferramenta, não substitui um plano alimentar elaborado por um nutricionista, ela apenas auxilia a nível de informação.",
+  "requestFramePermissions": []
+}
