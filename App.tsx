@@ -637,14 +637,14 @@ const FinalScreen = () => {
                     <div key={`${idx}-${i}`} className="flex justify-between items-center bg-black/40 p-3 rounded-xl border border-neutral-800/30 group">
                        <span className="text-neutral-200 font-bold group-hover:text-white transition-colors flex-1 pr-2">{item.name}</span>
                        <div className="flex items-center gap-2">
-                          <button onClick={() => handleQuantityChange(idx, i, -10)} className="w-8 h-8 flex items-center justify-center bg-neutral-900/70 rounded-full active:scale-90 transition-transform border border-neutral-700">
+                          <button onClick={() => handleQuantityChange(idx, i, -1)} className="w-8 h-8 flex items-center justify-center bg-neutral-900/70 rounded-full active:scale-90 transition-transform border border-neutral-700">
                             <Minus size={16} className="text-neutral-400" />
                           </button>
                           <div className="flex items-baseline gap-1 text-center w-16 justify-center">
                              <span className="font-black text-primary-500 text-2xl">{item.amount}</span>
                              <span className="text-[10px] text-neutral-500 font-black uppercase">{item.unit}</span>
                           </div>
-                           <button onClick={() => handleQuantityChange(idx, i, 10)} className="w-8 h-8 flex items-center justify-center bg-neutral-900/70 rounded-full active:scale-90 transition-transform border border-neutral-700">
+                           <button onClick={() => handleQuantityChange(idx, i, 1)} className="w-8 h-8 flex items-center justify-center bg-neutral-900/70 rounded-full active:scale-90 transition-transform border border-neutral-700">
                             <Plus size={16} className="text-neutral-400" />
                           </button>
                        </div>
